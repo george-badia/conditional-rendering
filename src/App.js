@@ -1,12 +1,13 @@
-
-import './App.css';
+import React from 'react';
 import NavBar from './NavBar';
-import Footer from "./Footer"
+import Home from './Home';
+import Footer from './Footer';
 function App() {
   return (
     <div className="App">
-     <NavBar showSignUp={true} />
-     <Footer footerType="about" />
+      <NavBar showSignUp={true} />
+      <Home />
+      <Footer footerType="about" />
     </div>
   );
 }
