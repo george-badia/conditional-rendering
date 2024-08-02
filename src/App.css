@@ -39,3 +39,15 @@
 .signup-button:hover {
   background-color: #218838; 
 }
+
+
+.footer {
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
